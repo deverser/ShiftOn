@@ -1,0 +1,10 @@
+@import 'base/variables';
+
+.continer {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
