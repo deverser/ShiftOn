@@ -16,4 +16,15 @@
     :hover {
         background: #269ACD;
     }
+    &_basic {
+        padding: 12px 20px;
+        width: 289px;
+        height: 47px;
+        line-height: 19px;
+        background: #FF5966;
+        &:hover {
+            background: #54A757;
+        }
+
+    }
 }
