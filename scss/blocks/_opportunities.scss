@@ -4,6 +4,8 @@
     &__card {
         width: 310px;
         height: 602px;
+        padding-top: 32px;
+        padding-left: 26px;
         margin: 0 6px;
         margin-top: 40px;
         background: #F9F9F9;
@@ -20,12 +22,30 @@
         }
         &__list {
             margin-top: 29px;
+            padding-left: 0;
             font-family: "Noto Sans", sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;
             line-height: 22px;
             color: #434449;
+            list-style-type: none;
+            li {
+                display: block;
+                margin: 12px 0;
+                padding-left: 18px;
+                &::before {
+                    content: "";
+                    display: block;
+                    position: relative;
+                    left: -16px;
+                    bottom: -15px;
+                    width: 8px;
+                    height: 8px;
+                    background-color: #29AAE3;
+                    border-radius: 50%;
+                }
+            }
         }
     }
 }
