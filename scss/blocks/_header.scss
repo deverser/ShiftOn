@@ -40,11 +40,11 @@ header {
             border: 4px solid transparent;
             border-top: 8px solid #FFFFFF;
         }
-        :nth-child(8) .lang_menu {
+        :nth-child(8) .lang-menu {
             display: none;
             list-style-type: none;
         }
-        :nth-child(8):hover .lang_menu {
+        :nth-child(8):hover .lang-menu {
             display: flex;
             flex-direction: column;
             align-items: flex-end;
