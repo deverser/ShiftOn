@@ -4,7 +4,7 @@
     &__card {
         position: relative;
         width: 310px;
-        min-height: 602px;
+        min-height: 655px;
         padding-top: 32px;
         padding-left: 26px;
         padding-bottom: 21px;
@@ -24,6 +24,7 @@
         }
         &__list {
             margin-top: 29px;
+            margin-bottom: 0;
             padding-left: 0;
             font-family: "Noto Sans", sans-serif;
             font-style: normal;
@@ -47,6 +48,35 @@
                     background-color: #29AAE3;
                     border-radius: 50%;
                 }
+            }
+        }
+        &__img {
+            display: flex;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 30px;
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 50px;
+                height: 50px;
+            }
+            &_orange {
+                box-shadow: 0px 4px 20px rgba(255, 198, 93, 0.3);
+                background: #FFC65D;
+            }
+            &_violet {
+                background: #9033F9;
+                box-shadow: 0px 4px 20px rgba(144, 51, 249, 0.2);
+            }
+            &_coral {
+                background: #FF5966;
+                box-shadow: 0px 4px 20px rgba(255, 89, 102, 0.2);
+            }
+            &_blue {
+                background: #29AAE3;
+                box-shadow: 0px 4px 20px rgba(41, 170, 227, 0.2);
             }
         }
     }
