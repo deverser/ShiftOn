@@ -1,0 +1,18 @@
+.automation {
+    padding-top: 70px;
+    padding-bottom: 48px;
+    background: #F5F6F6;
+    &__content {
+        width: 475px;
+        height: 212px;
+        &__text {
+            width: 475px;
+            min-height: 125px;
+            font-family: "Noto Sans", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+}

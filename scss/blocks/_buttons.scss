@@ -36,4 +36,13 @@
             background: #4FA252;
         }
     }
+    &_automation {
+        width: 305px;
+        margin-top: 40px;
+        padding: 12px 30px;
+        background: #29AAE3;
+        :hover {
+            background: #269ACD;
+        }
+    }
 }
