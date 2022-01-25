@@ -2,10 +2,12 @@
     min-height: 884px;
     padding: 100px 0;
     &__card {
+        position: relative;
         width: 310px;
-        height: 602px;
+        min-height: 602px;
         padding-top: 32px;
         padding-left: 26px;
+        padding-bottom: 21px;
         margin: 0 6px;
         margin-top: 40px;
         background: #F9F9F9;

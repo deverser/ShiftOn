@@ -19,12 +19,21 @@
     &_basic {
         padding: 12px 20px;
         width: 289px;
-        height: 47px;
         line-height: 19px;
         background: #FF5966;
         &:hover {
             background: #54A757;
         }
 
+    }
+    &_opportunities {
+        position: absolute;
+        bottom: 9px;
+        width: 164px;
+        padding: 12px 30px;
+        background: #54A757;
+        &:hover {
+            background: #4FA252;
+        }
     }
 }
