@@ -1,18 +1,24 @@
-.automation {
+.feature {
     padding-top: 70px;
     padding-bottom: 48px;
     background: #F5F6F6;
+    &_optimization {
+        padding: 100px 0;
+        background: #FFFFFF;
+    }
     &__content {
         width: 475px;
         height: 212px;
         &__text {
-            width: 475px;
-            min-height: 125px;
             font-family: "Noto Sans", sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 25px;
+            &_automation {
+                width: 475px;
+                min-height: 125px;
+            }
         }
     }
 }
