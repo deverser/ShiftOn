@@ -2,31 +2,32 @@
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 56px;
-    color: #FFFFFF;
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    &_basic {
+        margin-bottom: 0;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: left;
+        color: #FFFFFF;
+    }
     &_opportunities-card {
         margin-top: 23px;
         font-weight: 900;
         font-size: 22px;
         line-height: 26px;
         color: #29AAE3;
+    }    
+    &_opportunities {
+        margin-bottom: 0;
+        color: #434449;
     }
-    &_feature {
-        margin-bottom: 40px;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        &_automation {
-            color: #29AAE3;
-        }
-        &_opportunities {
-            margin-bottom: 0;
-            color: #434449;
-        }
-        &_optimization {
-            color: #9033F9;
-        }
-        
+    &_automation {
+        color: #29AAE3;
+    }
+    &_optimization {
+        color: #9033F9;
     }
 }
