@@ -15,9 +15,11 @@
     }
     &_opportunities-card {
         margin-top: 23px;
+        margin-bottom: 0;
         font-weight: 900;
         font-size: 22px;
         line-height: 26px;
+        text-align: left;
         color: #29AAE3;
     }    
     &_opportunities {
@@ -29,5 +31,8 @@
     }
     &_optimization {
         color: #9033F9;
+    }
+    &_management {
+        color: #FF5966;
     }
 }
