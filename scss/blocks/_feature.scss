@@ -6,9 +6,14 @@
         padding: 100px 0;
         background: #FFFFFF;
     }
+    &_management {
+        background: #F5F6F6;
+        padding-top: 71px;
+        padding-bottom: 64px;
+    }
     &__content {
         width: 475px;
-        height: 212px;
+        min-height: 212px;
         &__text {
             font-family: "Noto Sans", sans-serif;
             font-style: normal;
@@ -16,8 +21,15 @@
             font-size: 18px;
             line-height: 25px;
             &_automation {
-                width: 475px;
                 min-height: 125px;
+            }
+            &_optimization {
+                width: 425px;
+                min-height: 150px;
+            }
+            &_management {
+                width: 445px;
+                min-height: 150px;
             }
         }
     }

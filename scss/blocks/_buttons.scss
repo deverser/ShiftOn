@@ -4,6 +4,7 @@
     height: 47px;
     margin-top: 15px;
     margin-bottom: 12px;
+    padding: 12px 30px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -13,8 +14,11 @@
     background: #29AAE3;
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
     border-radius: 26px;
-    :hover {
-        background: #269ACD;
+    &_header {
+        padding: 10px 16px;
+        &:hover {
+            background: #269ACD;
+        }
     }
     &_basic {
         padding: 12px 20px;
@@ -30,7 +34,6 @@
         position: absolute;
         bottom: 9px;
         width: 164px;
-        padding: 12px 30px;
         background: #54A757;
         &:hover {
             background: #4FA252;
@@ -39,10 +42,25 @@
     &_automation {
         width: 305px;
         margin-top: 40px;
-        padding: 12px 30px;
         background: #29AAE3;
-        :hover {
+        &:hover {
             background: #269ACD;
+        }
+    }
+    &_optimization {
+        width: 238px;
+        margin-top: 32px;
+        background: #9033F9;
+        &:hover {
+            background: #842EE7;
+        }
+    }
+    &_management {
+        width: 305px;
+        margin-top: 40px;
+        background: #FF5966;
+        &:hover {
+            background: #EB5560;
         }
     }
 }
