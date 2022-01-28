@@ -1,0 +1,39 @@
+.footer {
+    min-height: 337px;
+    background: #53A8DD;
+    padding-top: 55px;
+    padding-bottom: 83px;
+    &__menu-links {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 302px;
+        a {
+            display: block;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__divider {
+        width: 100%;
+        height: 2px;
+        margin-top: 24px;
+        background: #C4C4C4;
+        opacity: 1;
+    }
+    hr:not([size]) {
+        height: 2px;
+    }
+    &__store-links {
+        display: flex;
+        justify-content: center;
+    }
+}
