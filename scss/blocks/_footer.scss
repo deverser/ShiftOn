@@ -36,4 +36,37 @@
         display: flex;
         justify-content: center;
     }
+    &__copyright {
+        margin-top: 12px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #ffffff;
+        &__links {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 auto;
+            margin-top: 15px;
+            width: 447px;
+            a {
+                position: relative;
+                color: #ffffff;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+                &::after {
+                    position: absolute;
+                    margin-left: 22px;
+                    content: '';
+                    width: 2px;
+                    height: 20px;
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
 }
