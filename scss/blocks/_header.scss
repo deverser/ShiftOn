@@ -57,3 +57,20 @@ header {
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .header {
+        justify-content: center;
+        &__menu {
+            &__item {
+                margin: 0 9px;
+            }
+        }
+        &__logo img {
+            width: 75%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 9px;
+        }
+    }
+}

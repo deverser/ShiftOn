@@ -24,3 +24,12 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .basic {
+        &__content {
+            margin: 0 auto;
+            padding: 120px 0;
+        }
+    }
+}
