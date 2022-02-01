@@ -19,6 +19,9 @@
         &:hover {
             background: #269ACD;
         }
+        &:active {
+            background: #9033F9;
+        }
     }
     &_basic {
         padding: 12px 20px;
@@ -27,7 +30,9 @@
         background: #FF5966;
         &:hover {
             background:#EB5560;
-            ;
+        }
+        &:active {
+            background: #54A757;
         }
 
     }
@@ -35,9 +40,13 @@
         position: absolute;
         bottom: 9px;
         width: 164px;
+        padding: 10px 25px;
         background: #54A757;
         &:hover {
             background: #4FA252;
+        }
+        &:active {
+            background: #0062CC;
         }
     }
     &_automation {
@@ -47,6 +56,9 @@
         &:hover {
             background: #269ACD;
         }
+        &:active {
+            background: #9033F9;
+        }
     }
     &_optimization {
         width: 238px;
@@ -55,6 +67,9 @@
         &:hover {
             background: #842EE7;
         }
+        &:active {
+            background: #54A757;
+        }
     }
     &_management {
         width: 305px;
@@ -62,6 +77,9 @@
         background: #FF5966;
         &:hover {
             background: #EB5560;
+        }
+        &:active {
+            background: #54A757;
         }
     }
 }
