@@ -56,3 +56,16 @@
         }
     }
 }
+
+@media  screen and (max-width: 1200px) {
+    .media {
+        padding: 75px 0;
+        iframe {
+            width: 800px;
+            height: 453px;
+        }
+        &__mail {
+            margin-top: 50px;
+        }
+    }    
+}

@@ -5,6 +5,9 @@
     &_optimization {
         padding: 100px 0;
         background: #FFFFFF;
+        .feature__content {
+            padding-left: 64px;
+        }
     }
     &_management {
         background: #F5F6F6;
@@ -51,7 +54,7 @@
         }
         &_management {
             img {
-                margin-left: 0;
+                margin-left: 64px;
                 width: 70%;
             }
         }
