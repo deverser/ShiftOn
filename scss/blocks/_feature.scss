@@ -60,3 +60,22 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    .feature {
+        &_automation, &_management {
+            .feature__content {
+                order: 2;
+            }
+        }
+        .row {
+            justify-content: center;
+        }
+        &__content {
+            margin-top: 35px;
+            &__text {
+                text-align: justify;
+            }
+        }
+    }
+}
