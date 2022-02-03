@@ -41,3 +41,10 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .title {
+        font-size: 32px;
+        line-height: 37px;
+    }
+}
