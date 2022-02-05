@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShiftOn - Автоматизированное составление рабочих расписаний онлайн</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <header>
         <nav class="header">
             <a href="#" class="header__logo"><img src="img/shifton_logo.png" alt="shifton_logo"></a>
-            <ul class="header__menu">
+            <ul class="header__menu header__menu_active">
                 <li class="header__menu__item"><a href="#">главная</a></li>
                 <li class="header__menu__item"><a href="#">тарифы</a></li>
                 <li class="header__menu__item"><a href="#opportunities">возможности</a></li>
@@ -27,12 +27,23 @@
                 <li class="header__menu__item">
                     <button class="button button_header" type="text">Регистрация</button>
                 </li>
-                <li class="header__menu__item"><a href="#">рус</a>
+                <li class="header__menu__item" id="xs-hidden"><a href="#">рус</a>
                     <ul class="lang-menu">
                         <li class="lang-menu__item"><a href="#">англ</a></li>
                     </ul>
                 </li>
             </ul>
+            <div id="xs-show">
+                <a href="#" class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"">рус</a>
+                <ul class="lang-menu dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li class="lang-menu__item"><a class="dropdown-item" href="#">англ</a></li>
+                </ul>
+            </div>
+            <div class="hamburger hamburger_active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
     <main>
@@ -201,5 +212,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
