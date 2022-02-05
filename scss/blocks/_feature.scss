@@ -2,6 +2,9 @@
     padding-top: 70px;
     padding-bottom: 48px;
     background: #F5F6F6;
+    .row {
+        justify-content: space-between;
+    }
     &_optimization {
         padding: 100px 0;
         background: #FFFFFF;
