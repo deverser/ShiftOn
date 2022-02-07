@@ -50,5 +50,21 @@
             font-size: 28px;
             line-height: 33px;
         }
+        &_opportunities-card {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        &_media {
+            width: 100%;
+        }
+        &_opportunities, &_automation, &_optimization, &_management, &_media {
+            font-size: 28px;
+            line-height: 33px;
+        }
     }
 }

@@ -91,3 +91,17 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .button {
+        &_basic {
+            width: 95%;
+        }
+        &_opportunities {
+            width: 260px;
+        }
+        &_automation, &_optimization, &_management {
+            width: 100%;
+        }
+    }
+}

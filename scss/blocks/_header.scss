@@ -178,9 +178,28 @@ header {
             font-size: 12px;
             font-weight: 700;
             padding-left: 18px;
+            &:hover {
+                color: #29AAE3;
+            }
         }
         .dropdown-menu, .dropdown-menu.show {
             min-width: 4rem;
         }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        &__logo img {
+            width: 25%;
+            margin-top: 1vh;
+        }
+    }
+    .hamburger {
+        margin-top: -1%;
+    }
+
+    #xs-show a {
+        padding-left: 0;
     }
 }

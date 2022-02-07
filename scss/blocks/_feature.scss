@@ -82,3 +82,25 @@
         }
     }
 }
+
+@media screen and (max-width: 767px) {
+    .feature {
+        &__content {
+            &__text {
+                font-size: 18px;
+                line-height: 25px;
+                &_optimization {
+                    width: 100%;
+                }
+                &_management {
+                    width: 100%;
+                }
+            }
+        }
+        &_optimization {
+            .feature__content {
+                padding-left: 12px;
+            }
+        }
+    }
+}
