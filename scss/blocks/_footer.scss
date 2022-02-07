@@ -77,9 +77,24 @@
 
 @media screen and (max-width: 767px) {
     .footer {
+        padding-top: 32px;
+        padding-bottom: 50px;
+        min-height: 244px;
+        &__menu-links a {
+            font-size: 18px;
+            line-height: 21px;
+        }
+        &__divider {
+            margin-top: 15px;
+        }
         &__copyright {
+            font-size: 15px;
+            line-height: 18px;
             &__links {
                 width: 100%;
+                a::after {
+                    height: 15px;
+                }
             }
         }
     }

@@ -6,6 +6,13 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 767px) {
+    .container {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+}
+
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/title';
