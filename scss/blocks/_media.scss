@@ -34,13 +34,16 @@
         width: 280px;
         height: 51px;
         font-size: 20px;
-        color: #FFFFFF;
         &__item {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 51px;
             border-radius: 50%;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
             &#facebook {
                 background: #3D5A96;
             }
