@@ -56,19 +56,13 @@
                 position: relative;
                 color: #ffffff;
                 text-decoration: none;
+                padding-right: 22px;
+                border-right: 2px solid #ffffff;
                 &:hover {
                     text-decoration: underline;
                 }
-                &::after {
-                    position: absolute;
-                    margin-left: 22px;
-                    content: '';
-                    width: 2px;
-                    height: 20px;
-                    background-color: #ffffff;
-                }
-                &:last-child::after {
-                    display: none;
+                &:last-child {
+                    border-right: none;
                 }
             }
         }
@@ -95,8 +89,8 @@
             line-height: 18px;
             &__links {
                 width: 100%;
-                a::after {
-                    height: 15px;
+                a {
+                    padding-right: 3vw;
                 }
             }
         }
