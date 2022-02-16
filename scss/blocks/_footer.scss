@@ -80,6 +80,9 @@
         padding-top: 32px;
         padding-bottom: 50px;
         min-height: 244px;
+        &__menu-links {
+            width: 100%;
+        }
         &__menu-links a {
             font-size: 18px;
             line-height: 21px;

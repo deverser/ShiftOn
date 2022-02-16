@@ -95,7 +95,7 @@
 @media screen and (max-width: 767px) {
     .button {
         &_basic {
-            width: 95%;
+            width: 97%;
         }
         &_opportunities {
             width: 260px;
@@ -103,6 +103,9 @@
         &_automation, &_optimization, &_management {
             width: 100%;
             margin-top: 32px;
+        }
+        &_management {
+            padding: 0 24px;
         }
     }
 }

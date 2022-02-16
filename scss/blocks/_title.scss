@@ -59,6 +59,9 @@
 
 @media screen and (max-width: 767px) {
     .title {
+        &_basic {
+            font-size: 29px;
+        }
         &_media {
             width: 100%;
         }
